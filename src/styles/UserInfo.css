@@ -1,0 +1,37 @@
+.user-info-main-div{
+    height:40vh;
+    width:100%;
+display: grid;
+grid-template-columns: 23% 23% 23% 23%;
+grid-template-rows:47% 47% ;
+gap:2rem;
+padding:2rem;
+}
+.user-info-div{
+padding:2rem 0rem;
+border-bottom: 0.1rem solid  rgba(107, 107, 107, 0.5);
+}
+.title{
+font-size: 1.5rem;
+color: #6B6B6B;
+margin:1.5rem 0rem;
+
+}
+.value{
+font-size: 2rem;
+margin:2rem 0rem;
+} 
+
+@media(min-width: 875px) and (max-width:1039px){
+    .value{
+        font-size: 1.7rem;
+    }
+}
+@media(max-width: 875px)  {
+
+    .value{
+        font-size: 1.3rem;
+    }
+
+}
+

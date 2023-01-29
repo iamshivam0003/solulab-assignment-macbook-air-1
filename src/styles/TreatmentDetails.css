@@ -1,0 +1,154 @@
+.treatment-main-div{
+width: 100%;
+height: 40vh;
+background: #F8F8F8;
+padding: 1rem;
+border-radius: 1rem;
+}
+.treatment-selector-div{
+    height:20%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 1rem;
+    border-bottom:0.1rem solid  #b9b5b5;
+}
+.treatment-name{
+background-color: #FFFFFF;
+font-size: 1.5rem;
+border:none;
+border-radius: 1rem;
+padding: 1rem;
+}
+.treatment-history{
+    background-color: #FFFFFF;
+    font-size: 1.5rem;
+    border:none;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.treatment-details-div{
+ display: flex;
+ align-items: center;
+ justify-content:space-around;
+width: 90%;
+height: 8.5rem;
+background: #FFFFFF;
+margin:2rem;
+padding: 1rem;
+box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
+}
+.treatment-card-div1-p1{
+ font-size: 2.5rem;
+font-family: Open Sans;
+font-weight: 700;
+line-height: 3.4rem;
+color: #242831;
+}
+.treatment-card-div1-p2{
+
+font-family: Open Sans;
+font-size: 1.2rem;
+font-weight: 400;
+line-height: 1.7rem;
+color: #6B6B6B;
+}   
+
+.treatment-card-div2{
+    border-left:1px solid rgba(107, 107, 107, 0.5);
+    border-right:1px solid rgba(107, 107, 107, 0.5);
+    padding: 0rem 3.8rem;   
+}
+
+.treatment-card-div2-p1{
+ font-family: Open Sans;
+font-size: 1.2rem;
+opacity:0.5;
+line-height: 1.7rem;
+color: #6B6B6B;
+}
+.treatment-card-div2-p2{
+font-family: Open Sans;
+font-size: 1.6rem;
+font-weight: 400;
+line-height: 2.2rem;
+color: #242831;
+;
+
+}
+.treatment-card-div3-p1{
+font-family: Open Sans;
+font-size: 1.2rem;
+opacity:0.5;
+line-height: 1.7rem;
+padding:.1rem;
+color: #6B6B6B;
+}
+.treatment-card-div3-p2{
+ font-family: Open Sans;
+font-size: 1.4rem;
+font-weight: 400;
+line-height: 2rem;
+padding:.1rem;
+color: #242831;
+}
+.treatment-card-div4-p1{
+font-family: Open Sans;
+font-size: 1.2rem;
+opacity:0.5;
+line-height: 1.7rem;
+padding:.1rem;
+color: #6B6B6B;
+}
+.treatment-card-div4-p2{
+font-family: Open Sans;
+font-size: 1.4rem;
+font-weight: 400;
+line-height: 2rem;
+padding:.1rem;
+color: #242831;
+}
+.treatment-card-div5{
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    padding: .7rem;  
+}
+.treatment-card-div5 span{
+ font-family: Open Sans;
+font-size: 1.4rem;
+font-weight: 400;
+color: #3156C8;
+}
+
+@media(max-width:995px){
+    .treatment-card-div1-p1{
+        font-size: 2rem;
+       line-height: 3rem;
+       }
+       .treatment-card-div1-p2{
+       font-size: 1rem;
+       line-height: 1rem;
+       }   
+    }
+    @media(max-width:638px){
+        .treatment-card-div1-p1{
+            font-size: 2rem;
+           line-height: 3rem;
+           }
+           .treatment-card-div1-p2{
+           font-size: 1rem;
+           line-height: 1rem;
+           }   
+        }
+        @media(max-width:520px){
+            .treatment-card-div1-p1{
+                font-size: 1.7rem;
+               line-height: 2.5rem;
+               }
+               .treatment-card-div1-p2{
+               font-size: 1rem;
+               line-height: 1rem;
+               }   
+            }

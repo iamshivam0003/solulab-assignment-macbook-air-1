@@ -1,0 +1,8 @@
+.middle-grid-div{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:100vh;
+    width:30%;
+    padding:.5rem;
+}

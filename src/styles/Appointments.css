@@ -1,0 +1,29 @@
+.appointment-main-div{
+display: flex;
+align-items: center;
+justify-content: space-around;
+gap: 1rem;
+width: 77%;
+height: 8vh;
+padding:.5rem;
+margin:1rem 0rem;
+background: #F8F8F8;
+border-radius: 1rem;
+}
+
+.appointment-sub-div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding: 0.7rem 1rem;
+    margin:0.1rem;
+    background: #FFFFFF;
+    border-radius: .5rem;
+}
+.appointment-sub-div p{
+    font-size: 1.2rem;
+    color: #6B6B6B;
+
+}
+
